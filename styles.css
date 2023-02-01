@@ -1,0 +1,101 @@
+/* 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+*/
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  display: inline-block;
+  background-color: hsl(0, 0%, 95%);
+  font-weight: 400;
+}
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0px 40px;
+}
+img {
+  margin: 40px 40px 20px 40px;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 20px 45px 80px 40px;
+}
+.aluxury {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 40px 40px 40px 40px;
+}
+.asedan {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 40px 40px 40px 40px;
+}
+.asuv {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 40px 40px 40px 40px;
+}
+
+.Luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 5px 5px 0px;
+  height: 440px;
+  width: 288px;
+  float: right;
+  line-height: 1.5;
+}
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -432px;
+  /* -1/2 width */
+  margin-top: -288px;
+  /* -1/2 height */
+}
+.Sedan {
+  border-radius: 5px 0px 0px 5px;
+  background-color: hsl(31, 77%, 52%);
+  height: 440px;
+  width: 288px;
+  float: left;
+  line-height: 1.5;
+}
+
+.SUV {
+  background-color: hsl(184, 100%, 22%);
+  height: 440px;
+  width: 288px;
+  float: left;
+  margin: auto;
+  line-height: 1.5;
+}
